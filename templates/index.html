@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>InspireMe App</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css">
+    <link rel="stylesheet" type="text/css" href="static/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="static/css/landing.css">
+    <link rel="stylesheet" type="text/css" href="static/css/quote.css">
+    <script src="static/js/script.js"></script>
+    <link rel="icon" href="https://www.freeiconspng.com/thumbs/inspiration-icon/inspiration-icon-1.png">
+
+	
+    <div class="cover-image.jpg"></div>	
+    <h1>WELCOME TO InspireME</h1>
+    <h2>Inspiration at your fingertips</h2>
+
+    <div class="pure-menu pure-menu-horizontal">
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item pure-menu-selected">
+                <a href="/random-quote" id="randomquote" class="pure-menu-link" "randomquote">Random Quote</a>
+            </li>
+            <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+                <a href="#" id="menuLink1" style="color:black" class="pure-menu-link">Contact</a>
+                <ul class="pure-menu-children">
+                    <li class="pure-menu-item">
+                        <a href="/Home" class="pure-menu-link">Landing Page</a>
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="https://github.com/Jakmike/InspireME" target="_blank" class="pure-menu-link">Github</a>
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="https://www.linkedin.com/in/chiomaenemuo/" target="_blank" class="pure-menu-link">LinkedIn</a>
+                    </li>
+		    <li class="pure-menu-item">
+                        <a href="https://twitter.com/JakMike3" target="_blank" class="pure-menu-link">Twitter</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <form class="pure-form" action="{{ url_for('search') }}" method="POST">
+        <input type="text" class="pure-input-rounded" name="search_word" placeholder="Enter a word">
+        <button type="submit" class="pure-button">Search</button>
+    </form>
+
+</head>
+<body>
+    <p>
+        The only way to do great work is to love what you do.<br>
+        Innovation distinguishes between a leader and a follower.<br>
+        Life is 10% what happens to us and 90% how we react to it.<br>
+        The only way to do great work is to love what you do.<br>
+        If you can dream it, you can do it.<br>
+        The only person you are destined to become is the person you decide to be.<br>
+        The best way to predict the future is to create it.<br>
+        The only way to fail is to give up.<br>
+    </p>
+
+    <form class="pure-form">
+        <fieldset>
+            <legend>Sign up for our monthly newsletter</legend>
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <label for="default-remember">
+                <input type="checkbox" id="default-remember" /> Remember me
+            </label>
+            <button type="submit" class="pure-button pure-button-primary">Sign in</button>
+        </fieldset>
+    </form>
+
+
+    <script src="static/js/script.js"></script>
+
+</body>
+</html>

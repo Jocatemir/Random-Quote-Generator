@@ -10,9 +10,3 @@ async function getQuote(url){
 }
 
 getQuote(apiUrl)
-
-function share(){
-    navigator.share({
-        text: quote.innerHTML
-    })
-}

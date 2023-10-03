@@ -1,0 +1,88 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1565275706395-d452122d6cfc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80');
+  background-repeat: no-repeat;
+  background-size: cover, 100%;
+}
+
+
+h1 {
+    text-align: center;
+    color: #000;
+    font-size: 40px; /* Add the unit 'px' */
+    font-style: italic;
+}
+
+h2 {
+    text-align: center;
+    font-style: bold;
+    font-size: medium;
+    color: white;
+}
+
+fieldset {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    border: 10px solid silver; /* Add the unit 'px' and specify the border style */
+    position: bottom; /* I'm assuming you meant 'position: absolute' */
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    font-size: 24px; /* Add the unit 'px' */
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    border-color: aqua;
+    text-decoration: wavy;
+}
+
+#author {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#randomquote {
+    background-color: skyblue;
+    font-size: 20px; /* Add the unit 'px' */
+    font-style: italic;
+    border-radius: 0.2cm;
+}
+
+#newQuoteBtn {
+    background-color: blue;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#newQuoteBtn:hover {
+    background-color: aqua;
+}
+
+.quote-container {
+    /* Add styling for the quote container */
+    /* For example: */
+    margin-bottom: 20px;
+}
+
+.go-back {
+    /* Add styling for the "Go Back" link */
+    /* For example: */
+    color: rgb(16, 16, 17);
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.fa.fa-arrow-left {
+    /* Add styling for the arrow icon */
+    /* For example: */
+    margin-right: 5px;
+}

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Rondom-Quote-Generator</title>
+    <title>InspireMe App</title>
     <link rel="stylesheet" type="text/css" href="static/css/styles.css">
     <link rel="stylesheet" type="text/css" href="static/css/landing.css">
     <link rel="icon" href="https://www.freeiconspng.com/thumbs/inspiration-icon/inspiration-icon-1.png">
 
     <header>
         <div class="cover-image.jpg"></div>
-        <h1>Welcome to Random-Quote-Generator </h1>
+        <h1>Welcome to InspireMe </h1>
         <p>Inspiration at your fingertips</p>
         <nav>
             <ul>
@@ -16,7 +16,7 @@
                 <li><a href="#about">About</a></li>
             </ul>
         </nav>
-        <a href="https://project-production-106a.up.railway.app/" class="cta-button">Visit the App</a>
+        <a href="{{ url_for('rootpage') }}" class="cta-button">Visit the App</a>
     </header>
 </head>
 <body>
@@ -67,9 +67,9 @@
     </section>
     
     <section id="about">
-        <h2>About Random-Quote-Generator </h2>
+        <h2>About InspireMe</h2>
         <p>
-            Random-Quote-Generator is a passion project driven by the belief in the transformative power of inspiration.<br>
+            InspireMe is a passion project driven by the belief in the transformative power of inspiration.<br>
             We understand that a single quote or a moment of motivation can have a profound impact on our lives.<br>
             That's why we created the InspireMe app, a user-friendly platform that delivers carefully curated quotes,<br>
             and powerful affirmations right to your fingertips.<br>
@@ -79,19 +79,29 @@
             Join the InspireMe community and embrace the power of inspiration to create positive change in your life.<br>
             It is a Portfolio Project for Holberton School, showcasing skills and experiences in web development.<br>
         </p>
-        <div class="Solo">
-            <div class="Solo">
-                <h3>Saheed Rasheed</h3>
+        <div class="team-members">
+            <div class="member">
+                <h3>Chioma Enemuo</h3>
                 <ul>
-                    <li><a href="https://www.linkedin.com/in/Rasheed Saheed" target="_blank">LinkedIn</a></li>
-                    <li><a href="https://github.com/Jocatemir" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/chiomaenemuo" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/Chynet35" target="_blank">GitHub</a></li>
+                    <li><a href="https://twitter.com/Amarach53971318" target="_blank">Twitter</a></li>
                 </ul>
             </div>
-        <a href="https://github.com/Jakmik/Random-Quote-Generator" target="_blank" class="cta-button">View Project Repository</a>
+            <div class="member">
+                <h3>Asomugha John</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/asomugha-john-kenenna-75315b185/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/Jakmike" target="_blank">GitHub</a></li>
+                    <li><a href="https://twitter.com/Jakmike3" target="_blank">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <a href="https://github.com/Jakmike/MVP" target="_blank" class="cta-button">View Project Repository</a>
     </section>
 
     <footer>
-        <p>© 202 Random-Quote-Generator. All rights reserved.</p>
+        <p>© 2023 InspireMe. All rights reserved.</p>
     </footer>
 </body>
 </html>

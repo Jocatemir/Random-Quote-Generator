@@ -1,0 +1,153 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-orientation: upright;
+    text-align: center;
+    background-color: #a898e2;
+    padding: 20px;
+}
+
+.cover-image {
+    background-image: url("cover-image.jpg");
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+/* Feature Section */
+
+.feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.thumbnail {
+    background-color: #5a5a61;  
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.feature-image {
+    max-width: 150px;  
+    height: auto;
+}
+
+.feature-content {
+    background-color: #a995e0;  
+    padding: 10px;
+}
+
+.feature-content h3 {
+    margin-top: 0;
+}
+
+
+.feature p {
+    font-size: 14px;
+    background-color: #977fee;
+    color: #555;
+}
+
+/* About Section */
+
+#about {
+    padding: 20px;
+    background-color: #a898e2;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.member {
+    margin-right: 20px;
+}
+
+.member h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.member ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.member ul li {
+    margin-bottom: 5px;
+}
+
+.member ul li a {
+    text-decoration: none;
+    color: #e23535;
+}
+
+.member ul li a:hover {
+    color: #e90e0e;
+}
+
+/* Footer Section */
+
+footer {
+    text-align: center;
+    background-color: #869ce4;
+    padding: 20px;
+    color: #fff;
+}

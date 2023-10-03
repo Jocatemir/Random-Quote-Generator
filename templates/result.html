@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" type="text/css" href="static/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="pure-g">
+        <div class="pure-u-1">
+            <h1 class="larger">Random Quote</h1>
+            <div class="quote-container">
+                <p class="quote larger">{{ quote }}</p>
+                <p class="author larger">{{ author }}</p>
+            </div>
+            <a href="{{ url_for('rootpage') }}" class="go-back">
+                <i class="fas fa-arrow-left"></i> Go Back
+            </a>
+        </div>
+    </div>
+    <script src="static/js/script.js"></script>
+</body>
+</html>
