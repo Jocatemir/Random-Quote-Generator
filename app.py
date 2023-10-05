@@ -43,7 +43,7 @@ def search():
 
     else:
         # Make a request to the They Said So Quotes API with the search word
-        url = f"https://quotes.rest/quote/search?category={category}"
+        url = f"https://quotes.rest/quote/search?category={search_word}"
         response = requests.get(url)
 
         if response.status_code == 200:
