@@ -1,7 +1,11 @@
 # Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
 v: 0
 micros:
+<<<<<<< HEAD
   - name: Random-Quote-Generator
+=======
+  - name: InspireME
+>>>>>>> d33ab1aa650e226079a24b67b4e1c1d040dc3d1c
     src: ./
     engine: python3.9
     primary: true
