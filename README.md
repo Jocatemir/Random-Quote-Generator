@@ -7,7 +7,7 @@ The Random-Quote-Generator App is a web application designed to provide users wi
 
 Random-Quote-Generator is a passion project driven by the belief in the transformative power of inspiration.
 We understand that a single quote or a moment of motivation can have a profound impact on our lives.
-That's why we created the InspireMe app, a user-friendly platform that delivers carefully curated quotes,
+That's why app is  created, a user-friendly platform that delivers carefully curated quotes,
 and powerful affirmations right to your fingertips.
 Our mission is to make inspiration accessible to everyone, anytime and anywhere.
 Start your day with a fresh quote, save your favorites, and share them with your loved ones.
